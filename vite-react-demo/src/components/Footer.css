@@ -1,0 +1,187 @@
+.footer {
+  background: 
+  hsl(270, 90%, 12%); /* same as screenshot */
+  color: #fff;
+  padding: 90px 20px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-left: 100px;
+  gap:  30px 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-logo {
+  width: 190px;
+  margin-bottom: 15px;
+}
+
+.footer-img{
+  align-items: left;
+  width: 650px;
+  margin-left: 10px;
+  margin-top: 25px;
+  
+}
+
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  color: #fbfaf5; 
+}
+
+.footer-section p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  margin-left: 0px;
+}
+
+.footer-section h2{
+  color:white;
+}
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f6c93f;
+}
+
+.footer-section .icon {
+  margin-right: 8px;
+  color: #f6c93f;
+}
+
+.footer-bottom {
+  border-top: 1px solid #2a1a4d;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 0px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .footer-img {
+    width: 450px;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 90px 30px;
+  }
+
+  .footer-container {
+    flex-direction: column;  /* ✅ stack sections vertically */
+    align-items: left;
+    text-align: left;
+  }
+
+  .footer-section {
+    width: 25%;
+  }
+
+  .footer-img {
+    width: 90%;   /* ✅ shrink image */
+    margin: 20px auto;
+  }
+
+  
+.footer-section p {
+  font-size: 0.95rem;
+  margin-inline-start: 2px;
+  margin-inline-end: 20px;
+  justify-content: left;
+  text-align: left;
+  line-height: 1.6;
+}
+  .footer-bottom {
+  border-top: 1px solid #2a1a4d;
+  text-align: left;
+  margin-left: 90px;
+}
+
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 400px;
+  z-index: 999;
+}
+.whatsapp-float img {
+  width: 50px;
+  height: 50px;
+}
+
+}
+
+/* Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .Card-title {
+    font-size: 26px;
+    text-align: left;
+  }
+
+  .footer-img {
+    width: 100%;
+  }
+
+  .footer-section h3 {
+    font-size: 1rem;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .footer-section p,
+  .footer-section ul li a {
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .whatsapp-float img {
+    width: 50px;
+    height: 50px;
+  }
+}

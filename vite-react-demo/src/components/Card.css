@@ -1,0 +1,169 @@
+.Card-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f9e5f6;
+}
+
+.Card-title {
+  font-size: 50px;
+  font-weight: 650;
+  margin-bottom: 56px;
+  color: #1c1c1c;
+  line-height: 1px;
+}
+
+/* White content box */
+.stay-box {
+  background: #ffffff;
+  border-radius: 45px;
+  padding: 40px 70px;
+  width: 730px;
+  margin: 0 auto;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+.stay-box p {
+  font-size: 22px;
+  line-height: 1;
+  color: #211c1c;
+  margin-bottom: 20px;
+  margin-right: 35px;
+  margin-top: 0.1px;
+}
+
+.stay-box h3 {
+  font-size: 25px;
+  align-items: center;
+  font-weight: 700;
+  color: #111;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.stay-btn {
+  background: #b547fa; /* Purple */
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 34px;
+  border: none;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 45px;
+  margin-bottom: 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.stay-btn:hover {
+  background: #7b1fc8;
+  transform: translateY(-4px);
+}
+
+
+@media (max-width: 640px) {
+  .stay-box {
+    padding: 38px 20px;
+  }
+  .Card-title {
+    font-size: 36px;
+  }
+  .stay-box h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Card-title {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .stay-boxarea {
+    padding: 30px 25px;
+    border-radius: 30px;
+    align-content: center;
+  }
+  .stay-box {
+    padding: 30px 25px;
+    border-radius: 30px;
+  }
+
+  .stay-box h3 {
+    font-size: 22px;
+  }
+
+  .stay-box p {
+    font-size: 20px;
+  }
+
+  .stay-btn {
+    font-size: 17px;
+    padding: 14px 28px;
+  }
+}
+
+/* Small Tablets & Large Phones (≤ 768px) */
+@media (max-width: 768px) {
+  .Card-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin: 10px 70px;
+  }
+
+  .stay-box {
+    padding: 28px 10px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .stay-box h3 {
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .stay-box p {
+    font-size: 18px;
+    margin-inline-start: 30px;
+    margin-inline-end: 10px;
+  }
+
+  .stay-btn {
+    margin: 10px 70px; 
+    padding: 10px;
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile (≤ 480px) */
+@media (max-width: 480px) {
+  .Card-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .stay-box {
+    padding: 22px 15px;
+    border-radius: 20px;
+  }
+
+  .stay-box h3 {
+    font-size: 18px;
+  }
+
+  .stay-box p {
+    font-size: 16px;
+  }
+
+  .stay-btn {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}

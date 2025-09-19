@@ -1,0 +1,156 @@
+.chooseus-section {
+  padding: 5px 40px;
+  background: linear-gradient(180deg, #e0caf9ed, #fe94e0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Left Side */
+.chooseus-center {
+  flex: 1;
+  
+}
+
+.chooseus-section h1 {
+  font-size: 3rem;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #111;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Card Style */
+.chooseus-card {
+  display: flex;
+  align-items: center;       /* icon + text aligned */
+  padding: 15px 20px;
+  border: 2px solid transparent;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  background: #fff;
+  width: 150%;
+  max-width: 400px;
+}
+
+.chooseus-card:hover {
+  border-color: #9126a2;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon images inside cards */
+.chooseus-img {
+  width: 45px;              /* slightly smaller */
+  height: 45px;
+  margin-right: 15px;
+  object-fit: cover;
+  display:block;
+  flex-shrink: 0;           /* prevents shrinking */
+}
+
+/* Card Text */
+.chooseus-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;              /* always visible */
+  line-height: 1.4;
+  margin: 10;
+  white-space: normal;      /* allow wrapping */
+  word-break: break-word;   /* handle long words */
+}
+
+/* Girl image */
+.chooseus_img {
+  margin-top: 150px;
+  margin-inline-end: 0px;
+}
+
+/* Step effect for staggered cards */
+.chooseus-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chooseus-card:nth-child(1) { margin-left: 0; margin-top: 0; }
+.chooseus-card:nth-child(2) { margin-left: 60px; margin-top: 20px; }
+.chooseus-card:nth-child(3) { margin-left: 120px; margin-top: 24px; }
+.chooseus-card:nth-child(4) { margin-left: 180px; margin-top: 27px; }
+.chooseus-card:nth-child(5) { margin-left: 240px; margin-top: 27px; }
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .chooseus-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 2500px;
+  }
+
+  .chooseus_img {
+    margin: 40px auto 0;
+    width: 70%;
+  }
+
+  .chooseus-card {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .chooseus-section {
+    padding: 50px 0px;
+    max-width: 600px;
+  }
+
+  .chooseus-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .chooseus-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2px 12px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .chooseus-img {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .chooseus_img girl img {
+    width: 200%;
+    height: 60%;
+    margin: 30px auto 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .chooseus-section {
+    max-width: 100%;
+    padding: 20px 10px;
+  }
+
+  .chooseus-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .chooseus-card h3 {
+    font-size: 1rem;
+  }
+
+  .chooseus_img {
+    width: 100%;
+  }
+}
