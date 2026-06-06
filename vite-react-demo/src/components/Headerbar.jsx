@@ -10,7 +10,7 @@ return (
       {/* Header Bar */}
       
         <img
-          src={logo} // replace with your company logo URL
+          src={logo} 
           alt="Company Logo"
           width="200px"
           className="company_logo"

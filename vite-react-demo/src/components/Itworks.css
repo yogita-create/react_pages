@@ -14,7 +14,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* GRID layout for perfect alignment */
+
 .itworks-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -70,8 +70,8 @@
 
 
 
-/* Mobile screens */
-@media screen and (max-width: 768px) {
+/* Mobile responsive */
+@media(max-width: 768px) {
 
   .itworks-section {
     padding: 10px 5px;

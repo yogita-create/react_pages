@@ -4,7 +4,7 @@ import Hero from "./components/Hero.jsx";
 import Aboutus from "./components/Aboutus.jsx";
 import Keybenefits from "./components/Keybenefit.jsx";
 import Chooseus from "./components/Chooseus.jsx";
-import Itworks from "./components/itworks.jsx";
+import Itworks from "./components/Itworks.jsx";
 import Card from "./components/Card.jsx";
 import Features from "./components/Features.jsx";
 import AddressForm from "./components/AddressForm.jsx";

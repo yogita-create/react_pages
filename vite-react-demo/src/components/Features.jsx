@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Features.css";
 
-// ✅ Import images
+//Import images
 import Officework from "../images/Officework.jpg";
 import Employee from "../images/Employee.jpg";
 import Leader from "../images/Leader.jpg";

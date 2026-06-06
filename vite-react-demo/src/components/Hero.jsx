@@ -5,34 +5,31 @@ import "../App.css";
 function Hero() {
   return (
     <div className="hero-wrapper">
-      {/* Main Content */}
-      <div className="Hero-section">
-        <div>
-          {/* Image slides in from right to left */}
+      <div className="hero-section">
+        
           <Motion.img
-            initial={{ x: 150, opacity: 0 }} // start from right
-            animate={{ x: 0, opacity: 1 }} // end at normal position
+            initial={{ x: 100, opacity: 0 }} 
+            animate={{ x: 0, opacity: 1 }} 
             transition={{ duration: 1, ease: "easeOut" }}
             src={img1}
             alt="img1"
-            width="350px"
+            width="300px"
             className="left-image img"
           />
 
-          {/* Text container */}
           <div className="right-container">
-            {/* Heading comes from bottom → up */}
+            
             <Motion.h1
-              initial={{ y: 80, opacity: 0 }}
+              initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             >
               Ensure Data Integrity, Security & Regulatory Compliance
             </Motion.h1>
 
-            {/* Sub-heading comes bottom → up after heading */}
+            
             <Motion.h2
-              initial={{ y: 80, opacity: 0 }}
+              initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
             >
@@ -41,7 +38,7 @@ function Hero() {
             </Motion.h2>
           </div>
         </div>
-      </div>
+      
 
       {/* Button */}
       <Motion.button

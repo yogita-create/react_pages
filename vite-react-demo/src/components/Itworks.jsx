@@ -1,6 +1,6 @@
 import React from "react";
 import { FaClipboardCheck, FaCogs, FaLock, FaChartLine, FaFileAlt } from "react-icons/fa";
-import "./Itworks.css"; // Import CSS file
+import "./Itworks.css"; 
 
 const Itworks = () => {
   const steps = [

@@ -24,7 +24,7 @@ const AddressForm = () => {
     setCaptcha(result);
   };
 
-  // Run once when component mounts
+  
   useEffect(() => {
     generateCaptcha();
   }, []);
@@ -43,13 +43,13 @@ const AddressForm = () => {
       return;
     }
 
-    // ✅ Save form data in localStorage
+    // Save form data in localStorage
     localStorage.setItem("addressFormData", JSON.stringify(formData));
 
     console.log("Form Submitted:", formData);
     alert("Form submitted successfully!");
 
-    // Clear fields and refresh captcha
+    
     setFormData({
       name: "",
       email: "",
@@ -66,7 +66,7 @@ const AddressForm = () => {
         <Motion.div
           className="addressform-box"
           initial={{ opacity: 1, y: 40 }}
-          animate={{ opacity: 1, x: 130 }}
+          animate={{ opacity: 1, x: 20 }}
           transition={{ duration: 1.2 }}
         >
           <h2>Get in Touch With Us!</h2>

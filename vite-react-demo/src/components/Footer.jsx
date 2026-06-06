@@ -9,7 +9,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Left Section: Logo & Description */}
         <div className="footer-section about">
           <img 
           src={logo} 
@@ -22,7 +21,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Middle Section: Useful Links */}
         <div className="footer-section links">
           <h3>Useful Links</h3>
           <ul>
@@ -37,7 +35,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Middle Section: Services */}
         <div className="footer-section services">
           <h3>Our Services</h3>
           <ul>
@@ -50,7 +47,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Right Section: Contact Info */}
         <div className="footer-section contact">
           <h3>Contact Info</h3>
           <p>
@@ -61,7 +57,7 @@ const Footer = () => {
             <FaEnvelope className="icon" />{" "}
             <a href="mailto:Hello@webmobi360.co">Hello@webmobi360.co</a>
           </p>
-          <p>
+        
             <FaPhoneAlt className="icon" />{" "}
             <a href="tel:+919766331360">+9766331360</a>
       <div class="fixed-bottom right-100 p-3" style={{ zIndex: "6", left: "initial"}}>
@@ -69,8 +65,6 @@ const Footer = () => {
        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="50"/>
        </a>
       </div>
-    
-          </p>
         </div>
       </div>
 

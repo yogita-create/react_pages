@@ -59,7 +59,7 @@
   visibility: visible;
 }
 
-/* Mobile screens */
+/* Mobile responsive*/
 @media screen and (max-width: 768px) {
 
   .benefits-section {
@@ -70,13 +70,13 @@
   .benefits-section h1{
     font-size: 2.4rem;
     margin-bottom: 40px;
-    margin-left: 65px;
+    margin-left: 70px;
     text-align: left;
     justify-content: center;
     padding: 5px 10px;
   }
   .benefits-container {
-    grid-template-columns: 1fr; /* stack cards vertically */
+    grid-template-columns: 1fr; 
     gap: 18px;
     display: grid;
     text-align: center;
@@ -84,10 +84,10 @@
     padding: 18px 50px;
   }
   .benefit-card {
-    width: 30%;
+    width: 40%;
     align-content: center;
     justify-content: center;
-    padding: 18px 65px;
+    padding: 18px 85px;
     height: auto;
   }
   .benefit-card .icon {
