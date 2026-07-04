@@ -1,6 +1,6 @@
 .chooseus-section {
   padding: 5px 40px;
-  background: linear-gradient(180deg, #e0caf9ed, #fe94e0);
+  background: linear-gradient(180deg, #EAB9FF, #FF97DF);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,7 +10,6 @@
 /* Left Side */
 .chooseus-center {
   flex: 1;
-  
 }
 
 .chooseus-section h1 {
@@ -40,8 +39,8 @@
 .chooseus-card:hover {
   border-color: #9126a2;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateX(25px);
 }
-
 /* Icon images inside cards */
 .chooseus-img {
   width: 45px;           
